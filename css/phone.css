@@ -1,0 +1,68 @@
+/* Navbar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul {
+    margin: 2px;
+}
+#navbar li a{ 
+    font-size: 1.23rem;
+    padding: 8px;
+}
+
+/* Section1 */
+#section1{
+    height: 489px;
+    padding: 14px;
+    margin-top: -23px;
+}
+#section1::before{
+    height: 682px;
+    width: 100%;
+    
+}
+#section1 p{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 18px;
+}
+#section1 h1{
+    font-size: 39px;
+}
+
+/* Section2 */
+#section2{
+    margin-top: 0px;
+}
+#section2 h1 {
+    font-size: 42px;
+}
+#section2 p {
+    padding: 4px;
+}
+.services{
+    flex-direction: column;
+    padding: 22px;
+}
+.services .box{
+    margin: 9px;
+}
+.services .box img{
+    height: 117px;
+}
+/* Section3 */
+#section3 h1{
+    font-size: 42px;
+    margin-top: 25px;
+}
+#section3 .client{
+    flex-wrap: wrap;
+}
+.logos{
+    padding: 0px;
+    
+}
+#section3 .client img{
+    width: 73px;
+    padding: 24px;
+}
